@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+   <!--META TAG OG-->
+   <meta property="og:type" content="website"/>
+   <meta property="og:title" content="Caroline Rayane!"/>
+   <meta property="og:image" content="#"/>
+   <meta property="og:description" content="A energia solar é mais do que uma fonte de energia - é uma revolução silenciosa que transforma a maneira como alimentamos nosso mundo!"/>
+   <meta property="og:site_name" content="Consultora de Vendas"/>
+   
+    <!--Link Icons-->
+   <link rel="shortcut icon" href="assets/logo-solplace.png" type="image/x-icon" />
+
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet"/>
+
+    <!--Style-->
+    <link rel="stylesheet" href="./styles/output.css">
+    <link rel="stylesheet" href="styles/loader.css">
+
+    <!--Link Tailwind-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <!--Link Cdn-Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Caroline Rayane|Consultora Energia Solar</title>
+
+ 
+  
+</head>
+<body class="bg-gray-50">
+
+   <!--Loading-->
+    <div class="loading-container" id="loading-container">
+
+        <div class="loader"><img src="assets/logo-solplace.png" alt=""></div>
+      </div>
+      <div class="content-container" id="content-container">
+      </div>
+
+      
+    <section class="relative">
+        
+        <section class="relative bg-gray-900 py-32 md:py-80">
+          <!-- Vídeo de Fundo -->
+          <video autoplay muted loop class="absolute inset-0 w-full h-full object-cover">
+            <source src="assets/156444-812591952_small.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos HTML5.
+          </video>
+          <div class="absolute inset-0 bg-black opacity-50"></div>
+          <div class="container mx-auto text-center text-white relative z-10 w-10/12">
+            <h2 class="area-1 text-3xl md:text-6xl font-bold mb-8">O que fazemos por você!</h2>
+            <p class="area-2 text-lg md:text-3xl tracking-wide mb-20 ">Queremos te ajudar vender cada vez mais!
+                Buscamos o financiamento ideal para o seu cliente e assim melhorar o seu nível de fechamento de vendas.<br>
+                Buscamos também os melhores equipamentos para você construir os projetos e entregar uma experiência completa ao seu cliente.
+                Acompanhamos você do início ao fim. Desde o momento em que cadastra o projeto em nossa plataforma até omomento que recebe o pagamento da instituição financeira.</p>
+                <a href="#contato" class=" bg-orange-600 text-white hover:bg-transparent transition duration-300 ease-in-out  border-2 transitio border-orange-600 text-2xl tracking-wide font-bold py-6 px-9 rounded-b-full  animate-blink">Fale Comigo</a>
+
+          </div>
+        </section>
+      
+        <!-- Cabeçalho -->
+        <header class="absolute top-0 left-0 right-0 py-4">
+          <div class="bg-black opacity-30 absolute inset-0"></div>
+          <div class="container mx-auto flex justify-between items-center">
+
+            <!-- Logo e nome -->
+            <div class="flex items-center z-10">
+              <a href="https://www.solplace.com.br/" target="_blank">
+                <img class="w-8 md:w-10 ms-3 mr-3" src="assets/logo-solplace.png" alt="logo">
+              </a>
+              <p class="text-orange-500 text-lg md:text-2xl font-bold">Caroline Rayane</p>
+            </div>
+      
+            <!-- Nav -->
+            <nav class="hidden md:flex z-10">
+              <ul class="flex text-white font-medium ">
+                <li class="mr-4 text-lg border-b border-transparent transition duration-300 ease-in-out hover:border-orange-500"><a href="#sobre">Sobre</a></li>
+                <li class="mr-4 text-lg border-b border-transparent transition duration-300 ease-in-out hover:border-orange-500"><a href="#servicos">Serviços</a></li>
+                <li class="mr-4 text-lg border-b border-transparent transition duration-300 ease-in-out hover:border-orange-500"><a href="#contato">Contato</a></li>
+              </ul>
+            </nav>
+      
+            <!-- Ícones de contato Icons -->
+            <div class="hidden md:flex z-10">
+              <a href="https://encurtador.com.br/dgtAX" target="_blank" class="mr-4">
+                <i class="fa-brands fa-whatsapp fa-lg md:fa-xl hover:scale-125 transition duration-300 ease-in-out" style="color: #ea7406;"></i>
+              </a>
+              <a href="mailto:caroline.bezerra@solplace.com.br" target="_blank">
+                <i class="fa-solid fa-envelope fa-lg md:fa-xl hover:scale-125 transition duration-300 ease-in-out" style="color: #e77408;"></i>
+              </a>
+            </div>
+
+      <!-- Botão do menu móvel -->
+<button id="menu-toggle" class="md:hidden focus:outline-none z-50">
+    <i class="fa-solid fa-bars fa-xl" style="color: #e17c09;"></i>
+  </button>
+  
+  <!-- Menu Mobile -->
+  <div id="mobile-menu" class=" md:hidden bg-black opacity-80 py-2 hidden w-48 md:w-64 fixed inset-y-0 left-0 transform -translate-x-full transition-transform duration-300 ease-in-out z-50">
+    <div class="container mx-auto ">
+      <ul class="text-orange-600 font-bold text-center py-10 z-1">
+        <li class="py-3 text-lg border-b border-orange-500 hover:text-white transition-colors duration-300"><a href="#sobre">Sobre</a></li>
+        <li class="py-3 text-lg border-b border-orange-500  hover:text-white transition-colors duration-300"><a href="#servicos">Serviços</a></li>
+        <li class="py-3 text-lg border-b border-orange-500  hover:text-white transition-colors duration-300"><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </div>
+  
+    </section>
+      
+
+  <!-- Sobre Carol -->
+  <div class=" bg-slate-100 ">
+  <section id="sobre" class="container mx-auto py-16">
+    <div class="flex flex-col md:flex-row items-center mb-48">
+        <img src="assets/carol-removebg-preview.png" alt="Foto do Consultor" class="area-img w-full md:w-1/4 rounded-lg shadow-md mb-4 md:mb-0 animate-float">
+        <div class="md:w-2/3 md:pl-8">
+            <h2 class="titulo-area text-3xl font-bold mb-4  text-orange-600 text-center">Quem Sou</h2>
+            <p class="area-2 text-lg font-semibold -tracking-tighter text-center">Sou uma consultora apaixonada por energia solar, com experiência sólida e compromisso inabalável com a sustentabilidade e o futuro energético renovável. Minha formação acadêmica e certificações refletem meu profundo conhecimento e especialização no setor. Com anos de experiência em projetos de energia solar, lidero com uma abordagem focada no cliente, entregando soluções personalizadas e eficientes. Minha missão é promover a adoção da energia solar, oferecendo consultoria de qualidade e valor excepcional aos clientes. Meus projetos anteriores e testemunhos de clientes destacam minha dedicação e habilidades comprovadas neste campo. Estou comprometida em impulsionar a transição para um futuro mais sustentável, um painel solar de cada vez. Contate-me para descobrir como podemos colaborar em projetos de energia solar e transformar suas ideias em realidade.</p>
+        </div>
+    </div>
+
+    <!-- Sobre Empresa-->
+    <div class="flex flex-col md:flex-row items-center  mb-20">
+        <img src="assets/Solplace.svg" alt="Foto do Consultor" class="area-img w-full md:w-1/4 rounded-lg shadow-md mb-4 md:mb-0 animate-float">
+        <div class="md:w-2/3 md:pl-8">
+            <h2 class=" titulo-area text-3xl font-bold mb-4  text-orange-600 text-center">Quem Somos</h2>
+            <p class="area-3 text-lg font-semibold -tracking-tighter text-center">A <a href="https://www.solplace.com.br/" target="_blank"><span class="font-bold text-orange-600">SolPlace</span></a> é uma empresa com espírito jovem e inovador,movidos pela energia de transformar o mundo, seja este oquintal da nossa casa ou da casa de milhões de outras pessoas.Acreditamos no que fazemos e vibramos a cada clientesatisfeito. Somos mais que uma ferramenta, tecnologia ou plataforma.Somos pessoas. Nosso propósito é fazer com que energias renováveis se tornem uma realidade de todos.</p>
+        </div>
+    </div>
+</section>
+</div>
+
+  <!-- Serviços -->
+  <section id="servicos"  class="container mx-auto py-16">
+    <div class="text-center mb-12">
+      <h2 class="titulo-are text-3xl font-bold mb-4 text-indigo-950 ">Enquanto você cuida do cliente</h2>
+      <h2 class="titulo-are text-3xl font-bold mb-4 text-orange-500">nós cuidamos de você.</h2>
+      <p class="area-4 text-lg font-semibold">Com a Sol Place você tem acesso aos mais diversosdistribuidores do mercado.<br>
+        Trazemos também diversasopções de crédito para o seu cliente.
+        Nosso sistema busca as melhores ofertas para você tomar asua decisão e fechar negócios.<br>
+        Com a Sol Place, você tem uma equipe completa para teajudar a vender mais e melhor.</p>
+    </div>
+    <h3 class=" titulo-are text-3xl font-normal text-center mb-12 mt-20 text-orange-400">Empresas Que Confiam em Nosso Trabalho</h3>
+    <div class="flex flex-col items-center mb-8">
+        <div class="w-full md:w-1/2 lg:w-1/3 p-4 text-center mb-11">
+          <p class="text-2xl text-center mb-2  text-neutral-600 font-bold">Produtos</p>
+          <hr class="w-48 mx-auto border-t-2 border-orange-500 mb-10">
+          <img src="assets/produtossolplace.png" alt="Painel Solar 1" class="area-image w-full  shadow-2xl">
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/3 p-4 text-center mb-4">
+          <p class="text-2xl text-center mb-2 text-neutral-600 font-bold">Crédito</p>
+          <hr class="w-48 mx-auto border-t-2 border-orange-500 mb-10">
+          <img src="assets/credito.png" alt="Painel Solar 2" class="area-img w-full  shadow-2xl">
+        </div>
+      </div>
+      
+    
+  </section>
+
+  <!-- Serviços -->
+  <div class=" bg-slate-100 py-10">
+  <section class="container mx-auto">
+    <div class="text-center mb-8">
+      <h2 class="titulo-area text-3xl font-bold mb-4 text-indigo-950">Nossa Abordagem</h2>
+      <p class="titulo-area text-lg font-semibold mb-8">Descrição detalhada dos serviços oferecidos pela empresa.</p>
+
+      <img src="assets/Frame 37499.svg" alt="Painel Solar 2" class="area-img w-full  shadow-2xl">
+    </div>
+  </section>
+</div>
+
+<!-- Paralax -->
+<div class="min-h-96 flex justify-center items-center bg-custom-image bg-fixed">
+    <h1 class="titulo-area text-4xl md:text-6xl lg:text-7xl text-center text-orange-600 font-semibold animate-blink">
+        <span class="text-white">VAMOS CONVERSAR</span> <br> E SEGUIR JUNTOS NESTA JORNADA?
+    </h1>
+</div>
+
+  <!-- Formulário de Contato -->
+  <section id="contato" class=" bg-slate-100 text-white py-16">
+    <div class="container mx-auto">
+      <h2 class="titulo-area text-4xl font-bold mb-8 text-center  text-indigo-950">Entre em Contato</h2>
+      <p class="titulo- areatext-lg mb-8 text-center  text-indigo-950">Queremos te ajudar cada vez mais!</p>
+      
+      <div class="flex flex-wrap justify-center items-center">
+        <!-- Inicio do  Formulário de Contato -->
+        <div class="w-full md:w-1/2 px-20 mb-11">
+          <form action="https://formsubmit.co/caroline.bezerra@solplace.com.br" method="POST" class="area-5 w-full">
+            <div class="mb-4">
+              <label for="nome" class="block mb-2 text-indigo-950 font-semibold">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome" class="w-full bg-gray-800 rounded-lg py-2 px-4 text-white" required>
+            </div>
+            <div class="mb-4">
+              <label for="telefone" class="block mb-2  text-indigo-950 font-semibold">Telefone</label>
+              <input type="tel" id="telefone" name="telefone" placeholder="Seu Celular com DD" class="w-full bg-gray-800 rounded-lg py-2 px-4 text-white" required>
+            </div>
+            <div class="mb-4">
+              <label for="email" class="block mb-2  text-indigo-950 font-semibold">Email</label>
+              <input type="email" id="email" name="email" placeholder="Seu Email" class="w-full bg-gray-800 rounded-lg py-2 px-4 text-white" required>
+            </div>
+            <div class="mb-4">
+              <label for="mensagem" class="block mb-2  text-indigo-950 font-semibold">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" placeholder="Ecreva sua Mensagem" class="w-full bg-gray-800 rounded-lg py-2 px-4 text-white" rows="4"></textarea>
+            </div>
+            <input type="hidden" name="_captcha" value="false" />
+            <input
+              type="hidden"
+              name="_autoresponse"
+              value="Recebi sua Mensagem, obrigada pelo contato e logo retornarei!"
+            />
+            <button type="submit" class="bg-orange-500 hover:bg-orange-600 text-white py-2 px-4 rounded-lg">Enviar</button>
+          </form>
+        </div>
+        
+        <!-- Mapa  -->
+        <div class="area-6 w-full md:w-1/2 px-4 mb-10">
+            <div class="aspect-w-16 aspect-h-9">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.4565351970996!2d-45.45225997470423!3d-22.411836329606544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cb64ab544e6b31%3A0x77268ae454c99a54!2sAv.%20B%20P%20S%2C%201303%20-%20Centro%2C%20Itajub%C3%A1%20-%20MG%2C%2037500-015!5e0!3m2!1spt-BR!2sbr!4v1712163251670!5m2!1spt-BR!2sbr" class="w-full h-full" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Rodapé -->
+  <footer class="bg-gray-900 text-white py-8">
+    <div class="container mx-auto">
+      <!-- Logo -->
+      <div class="flex items-center justify-start mb-4">
+        <img src="assets/logo-footer.png" alt="Logo da Empresa" class="w-12 h-auto mr-4  rounded-lg">
+        <h3 class="text-xl font-bold  hover:text-orange-600">Caroline Rayane Consultora</h3>
+      </div>
+      
+      <!-- Footer -->
+      <div class="md:flex md:justify-between md:items-start">
+
+        <!-- Menu Rápido -->
+        <ul class="mb-4 md:mb-0">
+            <p class="text-lg font-bold">Menu Rápido</p>
+          <li class="mr-4"><a href="#" class="text-white hover:text-orange-600">Home</a></li>
+          <li class="mr-4"><a href="#sobre" class="text-white hover:text-orange-600">Sobre</a></li>
+          <li class="mr-4"><a href="#servicos" class="text-white hover:text-orange-600">Serviços</a></li>
+          <li class="mr-4"><a href="#contato" class="text-white hover:text-orange-600">Contato</a></li>
+        </ul>
+        
+        <!-- Informações de Contato -->
+        <div class=" mb-4 md:mr-8">
+            <div class="items-center mb-2">
+              <div class="mr-2">
+                <a href="tel:+551127700997" target="_blank" class="text-white hover:text-orange-600 block mb-2"><i class="fas fa-phone"></i><span class="ml-3">+55 (11)2770-0997</span</a>
+                <a href="mailto:caroline.bezerra@solplace.com.br" target="_blank" class="text-white hover:text-orange-600 block mb-2"><i class="fas fa-envelope"></i><span class="ml-3">caroline.bezerra@solplace.com.br</span></a>
+                <a href="https://maps.app.goo.gl/JPU5QtxxwbkRt6r46" target="_blank" class="text-white hover:text-orange-600 block mb-2"><i class="fas fa-map-marker-alt"></i> <span class="ml-3">Av BPS, n° 1303 - Campus Unifei - Prédio J3, Pinheirinho, Itajubá - MG - 37500-903</span></a>
+              </div>
+             
+            </div>
+          </div>
+          
+        
+        <!-- Redes Sociais -->
+        <div class=" mb-4 md:mr-8">
+            <div class="items-center mb-4">
+              <div class="mr-2">
+                <p class="text-lg font-bold mb-2">Redes Sociais</p>
+                <a href="https://www.instagram.com/solplacebr?igsh=bHMzNWx5M2VyNjR1" target="_blank" class="text-white hover:text-orange-600 md:mr-2 "><i class="fab fa-instagram fa-xl"></i></a>
+                <a href="https://www.solplace.com.br/" target="_blank" class="text-white hover:text-orange-600 ml-2"><i class="fas fa-globe fa-xl"></i></a>
+                <a href="https://www.linkedin.com/company/sol-place-energia/" target="_blank" class="text-white hover:text-orange-600  ml-3"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                
+              </div>
+              
+            </div>
+          </div>
+          
+          
+      </div>
+      
+      <!-- Mensagem -->
+      <p class="text-sm mb-4 mt-10">A Sol Place é uma intermediadora de vendas e financiamentos de projetos fotovoltaicos agindo no modelo de correspondente bancário. Portanto, não realiza operações de crédito diretamente e não realiza venda de projetos ou componentes fotovoltaicos diretamente.</p>
+      
+      <!-- Linha Divisória -->
+      <div class="border border-white mb-5 w-full"></div>
+      
+      <!-- Direitos Autorais -->
+      <p class="text-sm text-center">© <span id="year"></span> Desenvolvido por <a href="https://portifolio-camillalarissa.netlify.app/"><span class="font-bold hover:text-orange-600">Camilla Larissa.</span></a> Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Botão fixo Whats -->
+  <div class="fixed bottom-8 right-8 z-10">
+    <a href="https://encurtador.com.br/dgtAX" target="_blank"  class="bg-green-500 hover:bg-green-600 text-white py-5 px-8 rounded-full shadow-md">
+        <i class="fab fa-whatsapp fa-2xl"></i>
+    </a>
+</div>
+
+<!-- Script Js -->
+  <script src="script.js"></script>
+  <script src="loader.js"></script>
+  
+</body>
+  
